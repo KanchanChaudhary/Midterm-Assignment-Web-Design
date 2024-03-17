@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(206, 195, 195);
+}
+/* this is the service section */
+
+#services{
+    flex-direction: column;
+}
+/* this is navigation section */
+#navigation{
+    flex-direction: column;
+}
+
+#navigation ul li a{
+    font-size: 1rem;
+    padding: 0px;
+    margin: 1px 4px;
+}
+/* this is the button section */
+
+#Home{
+    height: 250px;
+    
+}
+#Home p{
+    width: 415px;
+    color: rgb(0, 6, 6);
+    
+}
+#Home::before{
+    height: 420px;
+    
+
+}
+#logo img{
+    height: 40px;
+   
+}
+.heading-primary{
+    font-size: 1.5rem;
+    /* margin-top: 233px; */
+}
+#paragraph{
+    width: 100px;
+}
+.btn{
+    height: 30px;
+    width: 180px;
+}
+*{
+    margin: 4px;
+    padding: 0;
+}
+

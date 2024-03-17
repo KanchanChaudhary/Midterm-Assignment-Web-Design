@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* This is body part */
+body{
+    /* background: url('Images/backgroud.webp'); */
+    background-color: white;
+    
+}
+
+/* Navigation bar styling */
+#navigation{
+    display: flex;  
+    align-items: center;
+   background-color: black;
+   height: 90px;
+   opacity: 0.95;
+   border-radius: 14px;
+   /* position: relative; */
+    
+    
+}
+/* Logo and images styling using css */
+#logo{
+    margin: 3px 8px;
+
+}
+#logo img {
+    height: 100px;
+    margin: 4px 5px;
+}
+/* List styling using css */
+#navigation ul{
+    display: flex;
+    text-decoration: none;
+    margin: 2px 30px;
+
+}
+#navigation ul li{
+list-style: none;
+font-size: 1.2rem;
+
+
+}
+#navigation ul li a{
+    display: block;
+    padding: 5px 32px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    margin: 5px 20px;
+   
+    
+    }
+    #navigation ul li a:hover{
+        background-color: green;
+        border: 3px solid red;
+        
+        }
+/* This is home section  */
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 198px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#Home::before{
+    content: "";
+    position: absolute;
+    height: 430px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;    
+    opacity: 0.8;
+    background: url('Images/header.jpg') no-repeat center center/cover;
+}
+
+#Home h1{
+    text-align: center;
+    color: red;
+    /* font-family: "Kode Mono", monospace; */
+}
+
+#Home p{
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.heading-primary{
+    font-size: 2.5rem;
+    padding: 13px;    
+}
+
+.heading-center{
+    font-size: 2.5rem;
+    padding: 13px;
+}
+.btn{
+    padding: 7px 12px;
+    border: 2px solid red;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    margin: 19px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(210, 31, 210);
+    border: 3px solid rgb(232, 4, 4);
+    border-radius: 8px;
+   
+}
+
+/* Services section of this page is here */
+
+#services{
+   display: flex;
+   margin: 10px;
+   
+   }
+#services .box{
+ border: 2px solid red;
+ margin: 22px 12px;
+ border-radius: 24px;
+ background: rgb(228, 224, 233);
+ 
+}
+
+#services .box img{
+   height: 155px;
+   margin: auto;
+   display: block;
+   border-radius: 20px;
+  
+   }
+
+   #services .box p{
+    height: 120px;
+    font-family: 'Bree Serif', serif;
+    font-size: 0.8rem;
+   
+    }
+
+.primary-center{
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+.secondarycenter{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Client section is here */
+
+#client-section{
+    height: 333px;
+    position: relative;
+}
+
+#client-section{
+    height: 200px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    background: url('Images/backgroud.webp');
+    z-index: -1;
+    opacity: 0.95;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#clients img{
+  height: 100px;
+  border-radius: 24px;
+  
+    
+}
+
+
+.center{
+    text-align: center;
+}
+
+/* this is contact us section */
+#contact{
+    position: relative;
+  margin-top: 210px;
+  
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('Images/contact.jpg') no-repeat center center/cover;
+
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+/* This is th footer section */
+footer{
+    /* position: relative; */
+    background: black;
+    color: white;
+    height: 60px;
+    /* padding: 9px 20px;*/
+    
+}
+
