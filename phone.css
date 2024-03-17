@@ -1,10 +1,21 @@
+
+
+*{
+    margin: 4px;
+    padding: 0;
+}
+
 body{
-    background-color: rgb(206, 195, 195);
+    background-color: rgb(133, 179, 141);
 }
 /* this is the service section */
 
 #services{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
 }
 /* this is navigation section */
 #navigation{
@@ -12,9 +23,15 @@ body{
 }
 
 #navigation ul li a{
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0px;
-    margin: 1px 4px;
+    margin: 1px 20px;
+    flex-direction: column;
+}
+#navigation ul {
+    display: flex;
+    text-decoration: none;
+    margin: 0px 0px;
 }
 /* this is the button section */
 
@@ -47,8 +64,13 @@ body{
     height: 30px;
     width: 180px;
 }
-*{
-    margin: 4px;
-    padding: 0;
+.btn a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
 }
+#submitbtn{
+    margin: 1px 5px;
+}
+
 
